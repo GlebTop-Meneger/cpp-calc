@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "Russian"); 
 
-    
+    //gjgjhjhkh
     cout << "Добро пожаловать в калькулятор!" << endl;
 
     cout << "Введите первое число: ";
