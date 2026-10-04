@@ -2,25 +2,23 @@
 
 using namespace std;
 
-
 int main() {
-    setlocale(LC_ALL, "Russian"); 
+    setlocale(LC_ALL, "Russian");
 
-    
     cout << "Добро пожаловать в калькулятор!" << endl;
 
-    cout << "Введите первое число: ";
+    double a, b, c;
 
-   
-    double a;
+    cout << "Введите первое число: ";
     cin >> a;
 
     cout << "Введите второе число: ";
-    double b;
     cin >> b;
 
-   
-    cout << "Результат сложения: " << (a + b) << endl;
+    cout << "Введите третье число: ";
+    cin >> c;
+
+    cout << "Результат сложения: " << (a + b + c) << endl;
 
     return 0;
 }
